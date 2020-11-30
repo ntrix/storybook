@@ -1,0 +1,28 @@
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.follow-user {
+  display: flex;
+  width: 90%;
+  margin: 0.5em 1em;
+}
+.follow-user img {
+  height: 2.5em;
+  width: 2.5em;
+  margin: 0.2em 1.5em;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.follow-user .user-name {
+  flex-grow: 1;
+  text-align: left;
+}
+.follow-user b,
+.follow-user p {
+}
+.follow-user a {
+  text-decoration: none;
+  color: blue;
+}

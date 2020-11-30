@@ -1,0 +1,6 @@
+.book-list__img {
+  height: 2.5em;
+  width: 2.5em;
+  overflow: hidden;
+  border-radius: 5px;
+}

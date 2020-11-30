@@ -1,0 +1,20 @@
+.search-box {
+  display: flex;
+  width: 421px;
+  height: 54px;
+  padding: 0 20px;
+  border-radius: 27px;
+  border: 1px solid cyan;
+}
+.search-text {
+  flex: 1;
+  border: none;
+}
+
+.search-icon {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  background: rgb(20, 17, 68);
+}

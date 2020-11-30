@@ -1,0 +1,44 @@
+*,
+*:hover {
+  outline: none;
+}
+.container {
+  height: 200px;
+  width: 300px;
+  margin: auto;
+  font-size: 12px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+}
+.notify {
+  display: flex;
+  width: 40px;
+  margin: auto;
+}
+
+.bell {
+  margin-top: 5px;
+}
+
+.has-unread {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: red;
+}
+
+.btn {
+  padding: 1em 1em;
+  margin: 1em;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.btn-group {
+  display: flex;
+}

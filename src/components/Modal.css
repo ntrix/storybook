@@ -1,0 +1,42 @@
+.modal-1 {
+  position: absolute;
+  align-self: center;
+  height: 300px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  background: white;
+}
+
+.shadow-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #0003;
+}
+
+.btn-close {
+  position: absolute;
+  right: 0;
+}
+
+.btn {
+  padding: 1em 3em;
+  margin: 1em;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-green {
+  background: lime;
+}
+
+.btn-red {
+  background: red;
+}
+.btn-group {
+  display: flex;
+}
